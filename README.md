@@ -3,7 +3,7 @@
 * Crucial 32GB-DDR4 2667 MHz 
 * Samsung SSD 970 EVO 1TB
 * HD530 
-* DELL-DW1560  
+* DELL-DW1830  
 * This repo is based on [soulomoon repo](https://github.com/soulomoon/Dell-Precision-5510-OSX) with the exception of all third party kexts being installed to /Library/Extensions.
 
 # HDMI
