@@ -1013,6 +1013,8 @@
 		<string>MacBookPro13,3</string>
 		<key>SerialNumber</key>
 		<string>C02VM1TGGTFN</string>
+		<key>SmUUID</key>
+		<string>FB509A82-A56C-4834-B43C-FA3E90D7E13C</string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
