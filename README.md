@@ -1,16 +1,23 @@
-# Dell-Precision-5510-OSX
-* Dell-Precision-5510 i7-6820HQ HD530 16G-DDR4 4k-Screen Sata3-SSD-512G (and Samsung SSD 960 EVO 500GB) DELL-DW1560  
-* currently on macOS Mojave (Version 10.14)
-* This repo is based on
-[scottsanett repo](https://github.com/scottsanett/M5510-4K-High-Sierra-Installation) and 
-[darkhand repo](https://github.com/darkhandz/XPS-9550-Mojave)
+# Dell-Precision-5510-Mojave
+- i7-6820HQ 
+- HD530 
+- 32GB DDR4 2667 MHz 
+- Samsung SSD 970 EVO 1TB 
+- DELL-DW1830  
+- Currently using Clover r4919 beta
+- This repo is based on [soulmoon repo](https://github.com/soulomoon/Dell-Precision-5510-OSX) with the exception of all third party kexts being installed to /Library/Extensions
 
 # HDMI
-Inorder for hdmi to be able to output, you should add   
+To enable HDMI output, add the key/string to location below:  
 ```
-				<key>Mac-A5C67F76ED83108C</key>
-				<string>none</string>
-```  
-under `ConfigMap->dict` in `/System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist`  
+/System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist:
+        ConfigMap:
+            Dictionary:
+                <key>Mac-A5C67F76ED83108C</key>
+                <string>none</string>
+```   
 and rebuild kext cache using 
-`sudo kextcache -i /`  
+`sudo kextcache -i /` or [Kext Utility](http://cvad-mac.narod.ru/index/0-4). 
+
+# Credits
+- <a class="bbc_url" href="http://cvad-mac.narod.ru/" rel="nofollow external" sl-processed="1" style="color: rgb(15, 114, 218);" title="External link">© cVad 2008-2016</a> for Kext Utility.
