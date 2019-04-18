@@ -1,12 +1,13 @@
-# Dell-Precision-5510-OSX
-* Dell-Precision-5510 i7-6820HQ HD530 16G-DDR4 4k-Screen Sata3-SSD-512G (and Samsung SSD 960 EVO 500GB) DELL-DW1560  
-* currently on macOS Mojave (Version 10.14)
-* This repo is based on
-[scottsanett repo](https://github.com/scottsanett/M5510-4K-High-Sierra-Installation) and 
-[darkhand repo](https://github.com/darkhandz/XPS-9550-Mojave)
+# Dell-Precision-5510-Mojave
+* i7-6820HQ  
+* Crucial 32GB-DDR4 2667 MHz 
+* Samsung SSD 970 EVO 1TB
+* HD530 
+* DELL DW1830  
+* This repo is based on [soulomoon repo](https://github.com/soulomoon/Dell-Precision-5510-OSX) with the exception of all third party kexts being installed to /Library/Extensions.
 
 # HDMI
-Inorder for hdmi to be able to output, you should add   
+To enable hdmi output, you should add   
 ```
 				<key>Mac-A5C67F76ED83108C</key>
 				<string>none</string>
