@@ -6,6 +6,8 @@
 *.exe
 *.o
 *.so
+*.pyc
+*.out
 
 # Packages #
 ############
@@ -35,6 +37,7 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+Desktop.ini
 
 # Sensitive Data
 .config.plist
