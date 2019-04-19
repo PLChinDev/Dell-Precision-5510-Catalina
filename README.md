@@ -4,6 +4,7 @@
 * Samsung SSD 970 EVO 1TB
 * HD530 
 * DELL DW1830  
+* Clover r4920
 * This repo is based on [soulomoon repo](https://github.com/soulomoon/Dell-Precision-5510-OSX) with the exception of all third party kexts being installed to /Library/Extensions.
 
 # HDMI
