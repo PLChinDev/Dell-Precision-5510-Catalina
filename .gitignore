@@ -40,4 +40,4 @@ Thumbs.db
 Desktop.ini
 
 # Sensitive Data
-.config.plist
+#.config.plist
