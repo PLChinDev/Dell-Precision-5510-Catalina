@@ -1,16 +1,20 @@
-# Dell-Precision-5510-OSX
-* Dell-Precision-5510 i7-6820HQ HD530 16G-DDR4 4k-Screen Sata3-SSD-512G (and Samsung SSD 960 EVO 500GB) DELL-DW1560  
-* currently on macOS Mojave (Version 10.14)
+# Dell-Precision-5510-Mojave
+* Intel i7-6820HQ 
+* Intel HD530 
+* Crucial 32GB DDR4 2667 MHz
+* Samsung SSD 970 EVO 1TB 
+* Dell DW1830  
+* macOS Mojave 10.14.5
+* Clover r4928 beta
 * This repo is based on
-[scottsanett repo](https://github.com/scottsanett/M5510-4K-High-Sierra-Installation) and 
-[darkhand repo](https://github.com/darkhandz/XPS-9550-Mojave)
+[soulomoon repo](https://github.com/soulomoon/Dell-Precision-5510-OSX) with the exception of all third party kexts being installed in /Library/Extensions
 
 # HDMI
-Inorder for hdmi to be able to output, you should add   
+To enable HDMI output, add   
 ```
 				<key>Mac-A5C67F76ED83108C</key>
 				<string>none</string>
 ```  
 under `ConfigMap->dict` in `/System/Library/Extensions/AppleGraphicsControl.kext/Contents/PlugIns/AppleGraphicsDevicePolicy.kext/Contents/Info.plist`  
 and rebuild kext cache using 
-`sudo kextcache -i /`  
+`sudo kextcache -i /`.  
