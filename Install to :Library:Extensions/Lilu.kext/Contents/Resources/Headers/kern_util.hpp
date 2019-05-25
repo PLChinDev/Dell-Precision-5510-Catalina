@@ -356,7 +356,7 @@ inline bool checkKernelArgument(const char *name) {
  *  @return numeric kernel version
  */
 constexpr size_t parseModuleVersion(const char *version) {
-	return (version[0] - '0') * 100 + (version[2] - '0') * 10 + (version[4] - '0');
+	return (size_t)(version[0] - '0') * 100 + (version[2] - '0') * 10 + (version[4] - '0');
 }
 
 /**
@@ -780,10 +780,8 @@ public:
 	 *  Erase evector element
 	 *
 	 *  @param index element index
-	 *
-	 *  @return true on success
 	 */
-	bool erase(size_t index, bool free=true) {
+	void erase(size_t index, bool free=true) {
 		deleter(ptr[index]);
 		if (--cnt != index)
 			lilu_os_memmove(&ptr[index], &ptr[index + 1], (cnt - index) * sizeof(T));
@@ -793,8 +791,6 @@ public:
 			ptr = nullptr;
 			rsvd = 0;
 		}
-
-		return true;
 	}
 	
 	/**
@@ -865,7 +861,10 @@ inline constexpr char getBuildYear() {
 template <size_t i>
 inline constexpr char getBuildMonth() {
 	static_assert(i < 2, "Month consists of two digits");
-	auto mon = *reinterpret_cast<const uint32_t *>(__DATE__);
+	auto mon = static_cast<uint32_t>(__DATE__[0])
+		| (static_cast<uint32_t>(__DATE__[1]) << 8U)
+		| (static_cast<uint32_t>(__DATE__[2]) << 16U)
+		| (static_cast<uint32_t>(__DATE__[3]) << 24U);
 	switch (mon) {
 		case ' naJ':
 			return "01"[i];
