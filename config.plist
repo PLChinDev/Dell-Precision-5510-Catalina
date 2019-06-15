@@ -12,6 +12,10 @@
 			<false/>
 			<key>Fixes</key>
 			<dict>
+				<key>AddPNLF</key>
+				<true/>
+				<key>DeleteUnused</key>
+				<true/>
 				<key>FixHPET</key>
 				<false/>
 				<key>FixIPIC</key>
@@ -31,9 +35,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>T1NJRA==</data>
+					<data>
+					T1NJRA==
+					</data>
 					<key>Replace</key>
-					<data>WFNJRA==</data>
+					<data>
+					WFNJRA==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -41,19 +49,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X09TSQ==</data>
+					<data>
+					X09TSQ==
+					</data>
 					<key>Replace</key>
-					<data>WE9TSQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename _S3 to XS3X, pair with SSDT-S3</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>X1MzXw==</data>
-					<key>Replace</key>
-					<data>WFMzWA==</data>
+					<data>
+					WE9TSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -61,9 +63,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1JNVg==</data>
+					<data>
+					X1JNVg==
+					</data>
 					<key>Replace</key>
-					<data>WFJNVg==</data>
+					<data>
+					WFJNVg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -71,19 +77,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X0RTTQ==</data>
+					<data>
+					X0RTTQ==
+					</data>
 					<key>Replace</key>
-					<data>WERTTQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change EC0 to EC</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>RUMwXw==</data>
-					<key>Replace</key>
-					<data>RUNfXw==</data>
+					<data>
+					WERTTQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -91,9 +91,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SF9FQw==</data>
+					<data>
+					SF9FQw==
+					</data>
 					<key>Replace</key>
-					<data>RUNfXw==</data>
+					<data>
+					RUNfXw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -101,19 +105,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>RUNEVg==</data>
+					<data>
+					RUNEVg==
+					</data>
 					<key>Replace</key>
-					<data>RUNfXw==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HDAS to HDEF, optionally pair with SSDT-HDEF.aml</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>SERBUw==</data>
-					<key>Replace</key>
-					<data>SERFRg==</data>
+					<data>
+					RUNfXw==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -121,19 +119,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SEVDSQ==</data>
+					<data>
+					SEVDSQ==
+					</data>
 					<key>Replace</key>
-					<data>SU1FSQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change MEI to IMEI</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>TUVJXw==</data>
-					<key>Replace</key>
-					<data>SU1FSQ==</data>
+					<data>
+					SU1FSQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -141,9 +133,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R0ZYMA==</data>
+					<data>
+					R0ZYMA==
+					</data>
 					<key>Replace</key>
-					<data>SUdQVQ==</data>
+					<data>
+					SUdQVQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -151,9 +147,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>U0FUMA==</data>
+					<data>
+					U0FUMA==
+					</data>
 					<key>Replace</key>
-					<data>U0FUQQ==</data>
+					<data>
+					U0FUQQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -161,11 +161,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>UFhTWA==</data>
+					<data>
+					UFhTWA==
+					</data>
 					<key>Replace</key>
-					<data>U1NEMA==</data>
+					<data>
+					U1NEMA==
+					</data>
 					<key>TgtBridge</key>
-					<data>UlAwOQ==</data>
+					<data>
+					UlAwOQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -173,9 +179,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>UENJMFJQMDlQWFNY</data>
+					<data>
+					UENJMFJQMDlQWFNY
+					</data>
 					<key>Replace</key>
-					<data>UENJMFJQMDlTU0Qw</data>
+					<data>
+					UENJMFJQMDlTU0Qw
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -183,9 +193,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>UENJMC5SUDA5LlBYU1g=</data>
+					<data>
+					UENJMC5SUDA5LlBYU1g=
+					</data>
 					<key>Replace</key>
-					<data>UENJMC5SUDA5LlNTRDA=</data>
+					<data>
+					UENJMC5SUDA5LlNTRDA=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -193,9 +207,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>SFBFVA==</data>
+					<data>
+					SFBFVA==
+					</data>
 					<key>Replace</key>
-					<data>WFBFVA==</data>
+					<data>
+					WFBFVA==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -203,19 +221,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>U00ApFNEU01oaWprpABbgg==</data>
+					<data>
+					U00ApFNEU01oaWprpABbgg==
+					</data>
 					<key>Replace</key>
-					<data>U00AoAgKEaRTRFNNpABbgg==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>fix Method ADBG problem (not the perfect way)</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>RwmgDlsSTURCRwCkTURCR2ikAA==</data>
-					<key>Replace</key>
-					<data>RwmgBQoRpACgBQoRpACgBAGkAA==</data>
+					<data>
+					U00AoAgKEaRTRFNNpABbgg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -223,9 +235,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>AIpCVUYwC/gBTVNMTg==</data>
+					<data>
+					AIpCVUYwC/gBTVNMTg==
+					</data>
 					<key>Replace</key>
-					<data>AI9CVUYwC/gBTVNMTg==</data>
+					<data>
+					AI9CVUYwC/gBTVNMTg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -233,9 +249,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>AKRHUFJXCmkKBA==</data>
+					<data>
+					AKRHUFJXCmkKBA==
+					</data>
 					<key>Replace</key>
-					<data>AKRHUFJXCgkKBA==</data>
+					<data>
+					AKRHUFJXCgkKBA==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -243,11 +263,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1BSVw==</data>
+					<data>
+					X1BSVw==
+					</data>
 					<key>Replace</key>
-					<data>WFBSVw==</data>
+					<data>
+					WFBSVw==
+					</data>
 					<key>TgtBridge</key>
-					<data>UEJUTg==</data>
+					<data>
+					UEJUTg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -255,11 +281,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1BTVw==</data>
+					<data>
+					X1BTVw==
+					</data>
 					<key>Replace</key>
-					<data>WFBTVw==</data>
+					<data>
+					WFBTVw==
+					</data>
 					<key>TgtBridge</key>
-					<data>UEJUTg==</data>
+					<data>
+					UEJUTg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -267,9 +299,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>AQEiACB5ABQYX1NUQQA=</data>
+					<data>
+					AQEiACB5ABQYX1NUQQA=
+					</data>
 					<key>Replace</key>
-					<data>AQEiACB5ABQYWFNUQQA=</data>
+					<data>
+					AQEiACB5ABQYWFNUQQA=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -277,9 +313,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>U0JUTg==</data>
+					<data>
+					U0JUTg==
+					</data>
 					<key>Replace</key>
-					<data>U0xQQg==</data>
+					<data>
+					U0xQQg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -287,9 +327,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>QUNfXw==</data>
+					<data>
+					QUNfXw==
+					</data>
 					<key>Replace</key>
-					<data>QURQMQ==</data>
+					<data>
+					QURQMQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -297,9 +341,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>FCBCUlQ2Ag==</data>
+					<data>
+					FCBCUlQ2Ag==
+					</data>
 					<key>Replace</key>
-					<data>FCBCUlRYAg==</data>
+					<data>
+					FCBCUlRYAg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -307,9 +355,13 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>TFBDXw==</data>
+					<data>
+					TFBDXw==
+					</data>
 					<key>Replace</key>
-					<data>TFBDQg==</data>
+					<data>
+					TFBDQg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -317,19 +369,27 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1BUUwE=</data>
+					<data>
+					X1BUUwE=
+					</data>
 					<key>Replace</key>
-					<data>WlBUUwE=</data>
+					<data>
+					WlBUUwE=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(_PTS,1,S) to ZPTS, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
-					<data>X1BUUwk=</data>
+					<data>
+					X1BUUwk=
+					</data>
 					<key>Replace</key>
-					<data>WlBUUwk=</data>
+					<data>
+					WlBUUwk=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -337,39 +397,55 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1dBSwE=</data>
+					<data>
+					X1dBSwE=
+					</data>
 					<key>Replace</key>
-					<data>WldBSwE=</data>
+					<data>
+					WldBSwE=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(_WAK,1,S) to ZWAK, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
-					<data>X1dBSwk=</data>
+					<data>
+					X1dBSwk=
+					</data>
 					<key>Replace</key>
-					<data>WldBSwk=</data>
+					<data>
+					WldBSwk=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(XWAK,0,N) to ZWAK, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
-					<data>WFdBSwA=</data>
+					<data>
+					WFdBSwA=
+					</data>
 					<key>Replace</key>
-					<data>WldBSwA=</data>
+					<data>
+					WldBSwA=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(XWAK,0,S) to ZWAK, pair with SSDT-PTSWAK.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
-					<data>WFdBSwg=</data>
+					<data>
+					WFdBSwg=
+					</data>
 					<key>Replace</key>
-					<data>WldBSwg=</data>
+					<data>
+					WldBSwg=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -377,19 +453,27 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>R1BSVwI=</data>
+					<data>
+					R1BSVwI=
+					</data>
 					<key>Replace</key>
-					<data>WFBSVwI=</data>
+					<data>
+					WFBSVwI=
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
 					<string>change Method(UPRW,2,N) to XPRW, pair with SSDT-UPRW.aml</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
-					<data>VVBSVwpwEg==</data>
+					<data>
+					VVBSVwpwEg==
+					</data>
 					<key>Replace</key>
-					<data>WFBSVwpwEg==</data>
+					<data>
+					WFBSVwpwEg==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -397,11 +481,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1NUQQ==</data>
+					<data>
+					X1NUQQ==
+					</data>
 					<key>Replace</key>
-					<data>WFNUQQ==</data>
+					<data>
+					WFNUQQ==
+					</data>
 					<key>TgtBridge</key>
-					<data>R1BJMA==</data>
+					<data>
+					R1BJMA==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -409,11 +499,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X0NSUw==</data>
+					<data>
+					X0NSUw==
+					</data>
 					<key>Replace</key>
-					<data>WENSUw==</data>
+					<data>
+					WENSUw==
+					</data>
 					<key>TgtBridge</key>
-					<data>VFBEMQ==</data>
+					<data>
+					VFBEMQ==
+					</data>
 				</dict>
 				<dict>
 					<key>Comment</key>
@@ -421,21 +517,17 @@
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
-					<data>X1JNVg==</data>
+					<data>
+					X1JNVg==
+					</data>
 					<key>Replace</key>
-					<data>WFJNVg==</data>
+					<data>
+					WFJNVg==
+					</data>
 					<key>TgtBridge</key>
-					<data>UlAwMQ==</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename XTBT to YTBT and use with SSDT-YTBT.aml for USB-C hot plug</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>pABYVEJU</data>
-					<key>Replace</key>
-					<data>pABZVEJU</data>
+					<data>
+					UlAwMQ==
+					</data>
 				</dict>
 			</array>
 		</dict>
@@ -484,7 +576,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>brcmfx-country=#a dart=0 darkwake=0 -cdfon -lilubeta -wegbeta -vsmcbeta -hbfxbeta -alcbeta kext-dev-mode=1</string>
+		<string>brcmfx-country=#a dart=0 darkwake=0 -lilubetaall -alcbeta -bt4lefxbeta -cpufbeta -hbfxbeta -nobiobeta -vsmcbeta -wegbeta kext-dev-mode=1</string>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
@@ -524,7 +616,7 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>Inject &quot;name&quot; as (data)&quot;#display&quot; to disable graphics drivers on NVidia</string>
+				<string>Inject "name" as (data)"#display" to disable graphics drivers on NVidia</string>
 				<key>Device</key>
 				<string>NVidia</string>
 				<key>Disabled</key>
@@ -532,11 +624,13 @@
 				<key>Key</key>
 				<string>name</string>
 				<key>Value</key>
-				<data>I2Rpc3BsYXkA</data>
+				<data>
+				I2Rpc3BsYXkA
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Inject &quot;IOName&quot; as &quot;#display&quot; to disable graphics drivers on NVidia</string>
+				<string>Inject "IOName" as "#display" to disable graphics drivers on NVidia</string>
 				<key>Device</key>
 				<string>NVidia</string>
 				<key>Disabled</key>
@@ -556,7 +650,9 @@
 				<key>Key</key>
 				<string>class-code</string>
 				<key>Value</key>
-				<data>/////w==</data>
+				<data>
+				/////w==
+				</data>
 			</dict>
 		</array>
 		<key>Audio</key>
@@ -565,24 +661,36 @@
 			<true/>
 			<key>Inject</key>
 			<string>Detect</string>
+			<key>ResetHDA</key>
+			<true/>
 		</dict>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>SAAAAA==</data>
+				<data>
+				SAAAAA==
+				</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>AAAbGQ==</data>
+				<data>
+				AAAbGQ==
+				</data>
 				<key>device-id</key>
-				<data>GxkAAA==</data>
+				<data>
+				GxkAAA==
+				</data>
 				<key>disable-external-gpu</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 				<key>enable-hdmi20</key>
-				<data>AQAAAA==</data>
+				<data>
+				AQAAAA==
+				</data>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -623,17 +731,8 @@
 				</dict>
 			</array>
 		</dict>
-		<key>Hide</key>
-		<array>
-			<string>Preboot</string>
-		</array>
 		<key>Language</key>
 		<string>en:0</string>
-		<key>Mouse</key>
-		<dict>
-			<key>Enabled</key>
-			<false/>
-		</dict>
 		<key>Scan</key>
 		<dict>
 			<key>Entries</key>
@@ -648,7 +747,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>bluemac</string>
+		<string>Catalina</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -675,10 +774,6 @@
 		<true/>
 		<key>DellSMBIOSPatch</key>
 		<true/>
-		<key>ForceKextsToLoad</key>
-		<array>
-			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
-		</array>
 		<key>KernelLapic</key>
 		<true/>
 		<key>KernelPm</key>
@@ -691,9 +786,13 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>ILniAAAADzA=</data>
+				<data>
+				ILniAAAADzA=
+				</data>
 				<key>Replace</key>
-				<data>ILniAAAAkJA=</data>
+				<data>
+				ILniAAAAkJA=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -701,11 +800,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>igKEwHRC</data>
+				<data>
+				igKEwHRC
+				</data>
 				<key>MatchOS</key>
 				<string>10.14.x</string>
 				<key>Replace</key>
-				<data>igKEwOtC</data>
+				<data>
+				igKEwOtC
+				</data>
 			</dict>
 		</array>
 		<key>KextsToPatch</key>
@@ -716,13 +819,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>AEFQUExFIFNTRAA=</data>
+				<data>
+				AEFQUExFIFNTRAA=
+				</data>
 				<key>InfoPlistPatch</key>
 				<false/>
 				<key>Name</key>
 				<string>com.apple.iokit.IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>AAAAAAAAAAAAAAA=</data>
+				<data>
+				AAAAAAAAAAAAAAA=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -730,13 +837,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>SU9LaXQ=</data>
+				<data>
+				SU9LaXQ=
+				</data>
 				<key>InfoPlistPatch</key>
 				<true/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelLpssI2C</string>
 				<key>Replace</key>
-				<data>SU9LaXM=</data>
+				<data>
+				SU9LaXM=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -744,13 +855,17 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>SU9LaXQ=</data>
+				<data>
+				SU9LaXQ=
+				</data>
 				<key>InfoPlistPatch</key>
 				<true/>
 				<key>Name</key>
 				<string>com.apple.driver.AppleIntelLpssI2CController</string>
 				<key>Replace</key>
-				<data>SU9LaXM=</data>
+				<data>
+				SU9LaXM=
+				</data>
 			</dict>
 		</array>
 	</dict>
@@ -805,6 +920,10 @@
 		<string>0x1A</string>
 		<key>ProductName</key>
 		<string>MacBookPro13,3</string>
+		<key>SerialNumber</key>
+		<string>C02VM1TGGTFN</string>
+		<key>SmUUID</key>
+		<string>FB509A82-A56C-4834-B43C-FA3E90D7E13C</string>
 		<key>Trust</key>
 		<true/>
 		<key>Version</key>
@@ -813,7 +932,9 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Detect</string>
+		<string>Yes</string>
+		<key>InjectSystemID</key>
+		<true/>
 	</dict>
 </dict>
 </plist>
