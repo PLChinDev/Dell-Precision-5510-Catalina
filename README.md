@@ -17,7 +17,9 @@ To enable HDMI output, add the key/string to location below:
 			<string>none</string>
 ``` 
 and rebuild kext cache using 
-`sudo kextcache -i /` or [Kext Utility](http://cvad-mac.narod.ru/index/0-4). 
+`sudo kextcache -i /` or [Kext Utility](http://cvad-mac.narod.ru/index/0-4).
+
+* Unable to edit due to read-only filesystem. 
 
 # Catalina Broadcom Bluetooth Fix
 
