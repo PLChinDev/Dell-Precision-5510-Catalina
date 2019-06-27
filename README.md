@@ -1,4 +1,4 @@
-# Dell-Precision-5510-Mojave
+# Dell-Precision-5510-Catalina
 * Intel i7-6820HQ 
 * Intel HD530 
 * Crucial 32GB DDR4 2667 MHz
@@ -19,7 +19,7 @@ To enable HDMI output, add the key/string to location below:
 and rebuild kext cache using 
 `sudo kextcache -i /` or [Kext Utility](http://cvad-mac.narod.ru/index/0-4).
 
-* Unable to edit due to read-only filesystem. 
+* Unable to edit kext due to Catalina - Data being a read-only filesystem. 
 
 # Catalina Broadcom Bluetooth Fix
 
