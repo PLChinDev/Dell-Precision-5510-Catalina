@@ -20,6 +20,7 @@ and rebuild kext cache using
 `sudo kextcache -i /` or [Kext Utility](http://cvad-mac.narod.ru/index/0-4).
 
 * Unable to edit kext due to Catalina - Data being a read-only filesystem. 
+* Workaround is to replace your Board ID with an existing value in the ConfigMap Dictionary. I used Mac-AA95B1DDAB278B95.
 
 # Catalina Broadcom Bluetooth Fix
 
