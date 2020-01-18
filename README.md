@@ -1,3 +1,9 @@
+# This repo will no longer be regularly updated. I purchased a Macbook Pro.
+
+
+
+
+
 # Dell-Precision-5510-Catalina
 * Intel i7-6820HQ 
 * Intel HD530 
